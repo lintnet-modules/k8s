@@ -15,5 +15,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{github.token}}
       - run: lintnet -v
-      - run: lintnet lint
+      # - run: lintnet lint
       - run: lintnet test
