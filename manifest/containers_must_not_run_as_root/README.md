@@ -26,7 +26,7 @@ function(param) {
         '**/*.yaml',
       ],
       modules: [
-        'github_archive/github.com/lintnet-modules/k8s/manifest/containers_must_not_run_as_root/main.jsonnet@b0e00a40cb10d68f1d3e3a543a400fe589d293a2:v0.1.0',
+        'github_archive/github.com/lintnet-modules/k8s/manifest/containers_must_not_run_as_root/main.jsonnet@faf9f14c4cd522eb0d3b7e9539a6fe8c16ba5c4b:v0.1.0',
       ],
     },
   ],
