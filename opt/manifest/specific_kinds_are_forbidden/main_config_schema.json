@@ -1,0 +1,25 @@
+{
+   "$schema": "https://json-schema.org/draft/2020-12/schema",
+   "additionalProperties": false,
+   "description": "config",
+   "properties": {
+      "kinds": {
+         "type": "array",
+         "items": {
+            "type": "string",
+            "description": "A forbidden kind"
+         }
+      },
+      "excludes": {
+         "type": "array",
+         "items": {
+            "type": "string",
+            "description": "An excluded resource. The format must be <kind>/<name>"
+         }
+      }
+   },
+   "required": [
+      "kinds"
+   ],
+   "type": "object"
+}
